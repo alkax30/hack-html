@@ -1,0 +1,78 @@
+* {
+    font-family: inter;
+    margin: 0;
+}
+
+.main {
+    background-image: url(../img/2.png);
+    background-position: center;
+    padding: 5% 10%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 10% auto auto;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.border1 {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 1% 2%;
+    border-radius: 50px;
+}
+
+.enjoy {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.miss {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.off {
+    background-color: #00BF63;
+    width: 12rem;
+    height: 12rem;
+    padding: 3%;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 50%;
+    font-size: 3em;
+    font-weight: 700;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin:0px auto;
+}
+
+.sillas {
+    display: grid;
+    padding: 2% 10%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-items: center;
+}
+
+.before {
+    text-decoration: line-through red 2px;
+}
+
+.after {
+    padding-left: 5%;
+    font-weight: 700;
+}
+
+.border2 {
+    background-color: black;
+    padding: 3% 10%;
+}
+
+.shop {
+    color: white;
+    background-color: #00BF63;
+    padding: 10px 20px;
+    border-radius: 40px;
+}

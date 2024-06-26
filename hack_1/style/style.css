@@ -1,0 +1,59 @@
+:root {
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+*{
+    margin: 0;
+}
+
+.box{
+    position: relative;
+    background: none;
+}
+.container {
+    width: 100%;
+    height: 200px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image: url(path);
+    background-position: center center;
+    z-index: -1;
+    position: absolute;
+}
+
+.blue {
+    background-color: #93B5C9;
+}
+
+.wine {
+    background-color: #AB2849;
+}
+.one {
+    top: 200px;
+}
+.two{
+    top: 420px;
+    margin-left: 12.5rem;
+    width: 85%;
+}
+.three {
+    top: 640px;
+    margin-left: 12.5rem;
+    width: 85%;
+}
+.four {
+    top: 860px;
+    margin-left: 12.5rem;
+    width: 85%;
+}
+.five {
+    top: 1080px;
+    margin-left: 12.5rem;
+    width: 85%;
+}
+.six {
+    top: 1300px;
+    width: 98%;
+    left: 1%;
+}
